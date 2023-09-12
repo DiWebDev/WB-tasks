@@ -1,0 +1,36 @@
+
+.table{
+   width: 100%;
+}
+.pagination {
+   display: flex;
+   justify-content: center;
+}
+
+.pagination__list {
+   display: flex;
+   list-style-type: none;
+   gap: 10px;
+}
+
+.pagination__item {
+   /* padding: 10px; */
+   cursor: pointer;
+}
+
+.pagination__item--active {
+   font-weight: 800;
+   color: blanchedalmond;
+}
+
+tr{
+   text-align: start;
+}
+
+.table__title>th{
+   text-align: start;  
+}
+.table__title>th:hover{
+   cursor: pointer;
+   color: blanchedalmond;
+}

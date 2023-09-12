@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form class="form">
+      <input
+        class="form__input"
+        name="username"
+        type="text"
+        placeholder="Имя"
+        required
+      />
+      <input
+        class="form__input"
+        name="userLastName"
+        type="text"
+        placeholder="Фамилия"
+        required
+      />
+      <input
+        class="form__input"
+        name="password"
+        type="password"
+        placeholder="Пароль"
+        required
+      />
+      <button type="submit">Отправить</button>
+    </form>
+    <a href="https://64f1effa0e1e60602d24775e.mockapi.io/formData">Sent Data</a>
+    <script src="form.js"></script>
+  </body>
+</html>

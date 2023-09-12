@@ -1,0 +1,19 @@
+
+/* 
+  Анимация slide-in с помощью keyframes. 
+  От -100% до 0% элемент смещается по горизонтальной оси. 
+  Для класса .slide-in задана анимация slide-in продолжительностью 1секунду. 
+  forwards указывает, что после окончания анимации элемент останется в конечном состоянии. 
+*/
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .slide-in {
+    animation: slide-in 1s forwards;
+  }
+  

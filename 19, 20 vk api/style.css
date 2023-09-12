@@ -1,0 +1,14 @@
+.widget{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 500px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.post{
+    border-radius: 5px;
+    background: #2d3bd37f;
+}

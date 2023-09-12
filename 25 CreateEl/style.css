@@ -1,0 +1,27 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.wrapper {
+   max-width: 500px;
+   width: 100%;
+   background-color: #e6f2ff;
+   margin: 0 auto;
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.users {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+}
+
+.red {
+   color: red;
+}
